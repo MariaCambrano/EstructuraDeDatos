@@ -29,8 +29,7 @@ function Pila() {
     {/*Inicializamos el formulario para introducir datos */}
     <form>
         <input type='text' value={inputValue} onChange={(e)=>setInputValue(e.target.value)} placeholder='Introduce un dato' style={{padding:'8px', marginRight:'10px'}}/>
-    <button type='submit' style={{padding:'8px 12px', background: '#4CAF50'}}></button>
-    Push
+    <button type='submit' style={{padding:'8px 12px', background: '#4CAF50'}}> Push</button>
     </form>
     </div>
     </>
